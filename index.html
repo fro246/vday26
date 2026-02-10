@@ -3,10 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>💘 Valentine 💘</title>
-
-  <!-- MOBILE FIX -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -16,8 +13,7 @@
 
   <!-- SCREEN 1 -->
   <div class="card" id="screen1">
-    <h1>Will you be my Valentine?</h1>
-
+    <h1>Will you be my Valentine? 💖</h1>
     <div class="buttons">
       <button id="yesBtn">Yes 💘</button>
       <button id="noBtn">No 🙄</button>
@@ -27,39 +23,43 @@
   <!-- SCREEN 2 -->
   <div class="card hidden" id="screen2">
 
-    <h1>YAYYYYY!!! 💕</h1>
+    <h1>YAYYYYY 💕</h1>
 
-    <!-- COUNTDOWN -->
-    <h2 id="countdown"></h2>
-
-    <!-- BLURRED PARIS IMAGE -->
-    <div class="paris-container">
-      <img src="paris.jpg" id="parisImage" alt="Paris 🇫🇷">
-      <div class="overlay" id="parisOverlay">
-        Soon… 🇫🇷✨
-      </div>
-    </div>
-
-    <!-- MESSAGE -->
-    <p class="message">
-      Dear Phil, 
+    <!-- MESSAGE LETTER -->
+    <pre class="message">
+Dear Phil, 
       
-      Happy Valentine's Day! 🥰❤️ 
-      I love you so much and I’m so grateful to have you in my life! 
-      You are the most supportive, caring, and hottest boyfriend I could ever wish for! 
-      I can't wait to keep exploring the world with you and for everything this year has in store for us. 
-      Thank you for being my favorite person and best Valentine ❤️
-    </p>
+Happy Valentine's Day! 🥰❤️ 
+I love you so much and I’m so grateful to have you in my life! 
+You are the most supportive, caring, and hottest boyfriend I could ever wish for! 
+I can't wait to keep exploring the world with you and for everything this year has in store for us. 
+Thank you for being my favorite person and best Valentine ❤️
+    </pre>
 
     <!-- SLIDESHOW -->
     <div class="slideshow">
       <img src="photo1.jpg" class="slide active">
       <img src="photo2.jpg" class="slide">
       <img src="photo3.jpg" class="slide">
-      <img src="photo4.jpg" class="slide">
+    </div>
+
+    <!-- COUNTDOWN -->
+    <h2 id="countdown"></h2>
+
+    <!-- PARIS IMAGE -->
+    <div class="paris-container">
+      <img src="paris.jpg" id="parisImage" alt="Paris 🇫🇷">
+      <div class="overlay" id="parisOverlay">
+        Almost there… 🇫🇷✨
+      </div>
     </div>
 
   </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
 
   <script src="script.js"></script>
 </body>
