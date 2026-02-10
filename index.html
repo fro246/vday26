@@ -2,20 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>For You ❤️</title>
+  <title>💘 Valentine 💘</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <div class="card">
-    <h1>Hi love 💖</h1>
-    <p>I made this just for you.</p>
+  <!-- CONFETTI CONTAINER -->
+  <div id="confetti-container"></div>
 
-    <button id="revealBtn">Click me 💌</button>
+  <!-- SCREEN 1 -->
+  <div class="card" id="screen1">
+    <h1>Will you be my Valentine? 💖</h1>
 
-    <p id="hiddenMessage" class="hidden">
-      Will you be my Valentine? ❤️
+    <div class="buttons">
+      <button id="yesBtn">Yes 💘</button>
+      <button id="noBtn">No 🙄</button>
+    </div>
+  </div>
+
+  <!-- SCREEN 2 -->
+  <div class="card hidden" id="screen2">
+    <h1>YAYYYYY 💕</h1>
+    <p class="message">
+      <!-- ✨ EDIT THIS MESSAGE ✨ -->
+      Dear Phil,
+      
+      Happy Valentine's Day! 🥰❤️
+      I love you so much and I’m so grateful to have you in my life! 
+      Thank you for being my favorite person and best Valentine ever ❤️
     </p>
+
+    <!-- ✨ ADD YOUR IMAGE HERE ✨ -->
+    <img src="photo.jpg" alt="Us 💕" class="photo" />
   </div>
 
   <script src="script.js"></script>
